@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Thẻ việt nam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="http://s-media-cache-ak0.pinimg.com/736x/77/b5/c4/77b5c465a0e0812de8c7b3b21a1bbc57.jpg" title="Favicon"> 
+    <style>
+    /****** trang chủ ******/
+    /* ảnh nền */
+      * {padding: 0;margin: 0;outline: none;list-style: none;border: 0 none;}
+      body {overflow-x: hidden;background: url(img/nềnweb.jpg);background-size: 100%;background-attachment :fixed;}
+    /* chữ */
+      h1,h2,h3,h4,h5,h6,a,p {font-family: Myriad Pro Light;text-decoration: none ;color:rgb(255, 255, 255)}  
+    /* trượt */ 
+      ::-webkit-scrollbar-track {background: rgb(0, 0, 0);-webkit-box-shadow: inset 1px 1px 2px rgb(0, 0, 0);border: 1px solid #D8D8D8;}
+      ::-webkit-scrollbar-thumb {background: rgb(0, 0, 0);-webkit-box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.4);}
+      ::-webkit-scrollbar-thumb:active {background: rgb(0, 0, 0);-webkit-box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.3);}
+      ::-webkit-scrollbar {width: 8px;height: 8px;}
+    /* menu */
+    * {padding: 0;margin: 0;outline: none;list-style: none;border: 0 none;}
+      #main-nav {height: 35px;background: #1a1a1a;border-top: 1px solid #1a1a1a;border-bottom: 1px solid #1a1a1a;z-index: 999;display: block;}      
+      #main-nav ul li{float: left;height: 43px;margin: 0 5px;}
+      #main-nav ul li a {display: inline-block;height: 43px;width: 100%;text-transform: uppercase;font: 400 17px/35px Bebas,arial;}
+      /* bảng menu */
+        /* màu , font chữ menu */
+        .navbar {overflow: hidden;background-color: rgb(0, 0, 0);font-family: Myriad Pro Light;}
+        /* chữ */
+        .navbar a {float: left;font-size: 16px;color: rgb(255, 255, 255);text-align: center;padding: 14px 16px;text-decoration: none;}
+        /* nút mega */
+        .dropdown {float: left;overflow: hidden;}
+        /* button */
+        .dropdown .dropbtn {font-size: 16px;border: none;outline: none;color: rgb(255, 255, 255);padding: 14px 16px;background-color: inherit;font: inherit;margin: 0;}
+        /* link a */
+        .navbar a:hover, .dropdown:hover .dropbtn {text-decoration: underline;}
+        /* mega menu */
+        .dropdown-content {display: none;position: absolute;width: 100%;left: 0;box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);z-index: 1;}
+        /* biểu thị mega menu */  
+        .dropdown:hover .dropdown-content {display: block;}
+        /* xắp xếp tệp mega menu */
+        .column {float: left;width: 15.19%;padding: 10px;background-color: rgba(0, 0, 0, 0.774);height: 375px;}
+        /* chữ */
+        .column a {float: none;color: rgb(255, 255, 255);padding: 16px;text-decoration: none;display: block;text-align: left;}
+      /* tag 1 */
+        #tag-1 {background: rgba(0, 0, 0, 0.700);margin: 45px auto;position: relative;border: 1px solid rgba(0, 0, 0, 0.700);}
+        .tag-in-tag-1 {width: 1200px;margin: 0 auto;position: relative;border-radius: 20px 20px 20px 20px;}
+      /* tag 2 and 3*/
+        #tag-2-3 {background: rgb(0, 0, 0, 0.548);margin: 45px auto;position: relative;border: 1px solid rgb(0, 0, 0, 0.548);}
+        .tag-in-tag-2-3 {width: 1200px;margin: 0 auto;position: relative;border-radius: 20px 20px 20px 20px;}
+    /* img , khung ảnh */
+      .wp-caption {display:inline-block; line-height: 1px;max-width: 100%; margin: 6px 0 0 15px; ;padding: 2px;border-radius: 8px 8px 8px 8px;border: 3px solid rgb(24, 24, 24);text-align: center;background:rgb(24, 24, 24);box-shadow: none;border-radius: 8px 8px 8px 8px;}
+      .wp-caption .wp-caption-text {color: #ffffff;padding: 5px;line-height: 130%;}
+      .wp-caption img {width: 100%;border-radius: 8px 8px 8px 8px;}
+      /* img , khung ảnh avatar */
+        .avt-caption {display:inline-block; line-height: 1px;max-width: 100%; margin: 6px 0 0 15px; ;padding: 2px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;border: 0.1px solid rgb(24, 24, 24);text-align: center;background:rgb(24, 24, 24);box-shadow: none;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;}
+        .avt-caption .wp-caption-text {color: #ffffff;padding: 5px;line-height: 130%;}
+        .avt-caption img {width: 100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;}
+        .avt img {border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;}
+    /* chuyển thẻ */
+      .center {text-align: center;}
+      .pagination {display: inline-block;}
+      .pagination a {color: rgb(255, 255, 255);float: left;padding: 8px 16px;text-decoration: none;transition: background-color .3s;border: 1px solid rgba(0, 0, 0, 0.548);margin: 0 4px;}
+      .pagination a.active {background-color: rgb(0, 79, 197);color: rgb(255, 255, 255);border: 1px solid rgb(0, 79, 197);}
+      .pagination a:hover:not(.active) {background-color: rgb(0, 79, 197);}
+    /* copyright by tombui and vietnam123 */
+      .footer {background: #0000009d;color: #ffffff;height: 120px;display: block;}
+    </style>   
+  </head>
+  <body>
+    <!-- menu -->
+    <nav id="main-nav" class="fixed-enabled">
+      <div class="navbar">
+        <a href="index.html">Trang chủ</a>
+        <div class="dropdown">
+          <button class="dropbtn">Nút<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <div class="column">
+              <a href="the_art_1.html" style="font-size: 20px">art</a>
+              <a href="the_anime_1.html" style="font-size: 20px">anime</a>
+              <a href="the_gril_1.html" style="font-size: 20px">girl</a>
+              <a href="the_boy_1.html" style="font-size: 20px">boy</a>
+              <a href="the_kissing_1.html" style="font-size: 20px">kissing</a>
+              <a href="the_boy_and_gril_1.html" style="font-size: 20px">boy and girl</a>
+              <a href="the_movie_1.html" style="font-size: 20px">movie</a>
+            </div>
+            <div class="column">
+              <a href="the_games_1.html" style="font-size: 20px">games</a>
+              <a href="the_vietnam_1.html" style="font-size: 20px">việt nam</a>
+              <a href="the_city_1.html" style="font-size: 20px">thành phố</a>
+              <a href="the_sky_1.html" style="font-size: 20px">bầu trời</a>
+              <a href="the_thao_nguyen_1.html" style="font-size: 20px">thảo nguyên</a>
+              <a href="the_bai_bien_1.html" style="font-size: 20px">bãi biển</a>
+              <a href="the_tau_1.html" style="font-size: 20px">tàu thuyền</a>
+            </div>
+            <div class="column">
+              <a href="the_vu_tru_1.html" style="font-size: 20px">vũ trụ</a>
+              <a href="the_tau_vu_tru_1.html" style="font-size: 20px">tàu không gian</a>
+              <a href="the_hanh_tinh_1.html" style="font-size: 20px">hành tinh</a>
+              <a href="trai_dat_1.html" style="font-size: 20px">trái đất</a>
+              <a href="the_ho_den_1.html" style="font-size: 20px">hố đen</a>
+              <a href="the_sky_black_1.html" style="font-size: 20px">bầu trời sao</a>
+              <a href="the_đong_ho_1.html" style="font-size: 20px">đồng hồ</a>
+            </div>
+            <div class="column">
+              <a href="the_hinh nen_don_1.html" style="font-size: 20px">hình nền đơn</a>
+              <a href="the_nen_toi_mau_1.html" style="font-size: 20px">nền tối</a>
+              <a href="the_nen_sang_mau_1.html" style="font-size: 20px">nền sáng</a>
+              <a href="the_color_1.html" style="font-size: 20px">sắc màu</a>
+              <a href="the_dong_vat_1.html" style="font-size: 20px">động vật</a>
+              <a href="the_nguoi_noi_tieng_1.html" style="font-size: 20px">người nổi tiếng</a>
+              <a href="the_vu_khi_1.html" style="font-size: 20px">vũ khí</a>
+            </div>
+            <div class="column">
+              <a href="the_dia_danh_1.html" style="font-size: 20px">địa danh</a>
+              <a href="the_nui_non_1.html" style="font-size: 20px">núi non</a>
+              <a href="the_the_gioi_1.html" style="font-size: 20px">thế giới</a>
+              <a href="the_quoc_ky_1.html" style="font-size: 20px">quốc kỳ</a>
+              <a href="the_phong_canh_1.html" style="font-size: 20px">phong cảnh</a>
+              <a href="the_khoa_hoc_vien_tuong_1.html" style="font-size: 20px">khoa học viễn tưởng</a>
+              <a href="the_tan_the_1.html" style="font-size: 20px">tận thế</a>
+            </div>
+            <div class="column">
+              <a href="the_soviet_1.html" style="font-size: 20px">soviet</a>
+              <a href="the_tank_1.html" style="font-size: 20px">xe tăng</a>
+              <a href="the_truong_hoc_1.html" style="font-size: 20px">trường học</a>
+              <a href="th_may_bay_1.html" style="font-size: 20px">máy bay</a>
+              <a href="the_can_phong_1.html" style="font-size: 20px">căn phòng</a>
+              <a href="the_tang_ham_1.html" style="font-size: 20px">tầng hầm</a>
+              <a href="the_ma_quy_1.html" style="font-size: 20px">ma quỷ</a>
+            </div>
+          </div>
+        </div>
+        <a href="bai_viet_1.html">Bài viết</a>
+        <a href="group_chat_1.html">Hội chat</a>  
+        <a href="hoi_vien_1.html" style="float: right">Người dùng : ô mai</a>
+        <figure style="width: 30px ;float: right" class="avt-caption" class="avt">
+          <img src="img/avatar2.jpg">
+        </figure>
+      </div>
+    </nav>
+    <!-- img -->
+    <div id="tag-2-3" class="tag-in-tag-2-3" style="padding: 20px"> 
+      <div>
+        <center><h2>Thẻ việt nam</h2></center>
+        <figure style="width: 365px" class="wp-caption">
+          <a href="javascript:goToImage('img/img330.jpg')">
+            <img src="img/img330.jpg" alt="hỏng">
+          </a>  
+          <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+        </figure>
+        <figure style="width: 365px" class="wp-caption">
+          <a href="javascript:goToImage('img/img331.jpg')">
+            <img src="img/img331.jpg" alt="hỏng">
+          </a>  
+          <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+        </figure>
+        <figure style="width: 365px" class="wp-caption">
+          <a href="javascript:goToImage('img/img333.jpg')">
+            <img src="img/img333.jpg" alt="hỏng">
+          </a>  
+          <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+        </figure>
+        <figure style="width: 365px" class="wp-caption">
+          <a href="javascript:goToImage('img/img334.jpg')">
+            <img src="img/img334.jpg" alt="hỏng">
+          </a>  
+          <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+        </figure>
+        <figure style="width: 365px" class="wp-caption">
+          <a href="javascript:goToImage('img/img335.jpg')">
+            <img src="img/img335.jpg" alt="hỏng">
+          </a>  
+          <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+        </figure>
+        <figure style="width: 365px" class="wp-caption">
+          <a href="javascript:goToImage('img/img336.jpg')">
+            <img src="img/img336.jpg" alt="hỏng">
+          </a>  
+          <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+        </figure>
+        <figure style="width: 365px" class="wp-caption">
+          <a href="javascript:goToImage('img/img337.jpg')">
+            <img src="img/img337.jpg" alt="hỏng">
+          </a>  
+          <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+        </figure>
+      </div>          
+    </div>
+    <!-- chuyển thẻ -->
+    <div id="tag-1" class="tag-in-tag-1" style="padding: 10px">
+      <div class="center">
+        <div class="pagination">
+          <a href="the_vietnam_1.html">1</a>
+          <a href="the_vietnam_2.html">2</a>
+          <a href="the_vietnam_3.html" class="active">3</a>
+        </div>
+      </div>    
+    </div>
+    <!-- thank you bạn đã ghé thăm trang web này -->
+    <footer class="footer" style="padding: 20px">
+      <center>
+        <p style="font-size: 25px">Nếu có điều gì cần nêu ý kiến hay cần được hỗ trợ , bạn hãy liên lạc với chúng tôi ngay</p>
+        <p style="font-size: 25px">Copyright © 2018 as noval / tombui / vietnamcolen2020 </p>
+        <p style="font-size: 25px">Gmail : vietnamcolen2020@gmail.com</p>
+        <p style="font-size: 25px">Số điện thoại liên lạc : 098 353 8869</p>
+      </center>
+    </footer>
+    <script>
+      function goToImage(link) {
+        localStorage.imageDetail = link;
+        window.location.href = window.location.href.replace('the_vietnam_3.html','/image_detail.html');}
+    </script>
+  </body>
+</html>

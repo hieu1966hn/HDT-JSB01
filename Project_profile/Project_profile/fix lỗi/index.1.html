@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>trang chủ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="http://s-media-cache-ak0.pinimg.com/736x/77/b5/c4/77b5c465a0e0812de8c7b3b21a1bbc57.jpg" title="Favicon"> 
+    <style>
+    /****** trang chủ ******/
+    /* ảnh nền */
+      * {padding: 0;margin: 0;outline: none;list-style: none;border: 0 none;}
+      body {overflow-x: hidden;background: url(img/nềnweb.jpg);background-size: 100%;background-attachment :fixed;}
+    /* chữ */
+      h1,h2,h3,h4,h5,h6,a,p {font-family: FreeMono, monospace ;text-decoration: none ;color:rgb(255, 255, 255)}  
+    /* trượt */ 
+      ::-webkit-scrollbar-track {background: rgb(0, 0, 0);-webkit-box-shadow: inset 1px 1px 2px rgb(0, 0, 0);border: 1px solid #D8D8D8;}
+      ::-webkit-scrollbar-thumb {background: rgb(0, 0, 0);-webkit-box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.4);}
+      ::-webkit-scrollbar-thumb:active {background: rgb(0, 0, 0);-webkit-box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.3);}
+      ::-webkit-scrollbar {width: 8px;height: 8px;}
+    /* menu */
+    * {padding: 0;margin: 0;outline: none;list-style: none;border: 0 none;}
+      #main-nav {height: 35px;background: #1a1a1a;border-top: 1px solid #1a1a1a;border-bottom: 1px solid #1a1a1a;z-index: 999;display: block;}      
+      #main-nav ul li{float: left;height: 43px;margin: 0 5px;}
+      #main-nav ul li a {display: inline-block;height: 43px;width: 100%;text-transform: uppercase;font: 400 17px/35px Bebas,arial;}
+      /* bảng menu */
+        /* màu , font chữ menu */
+        .navbar {overflow: hidden;background-color: rgb(0, 0, 0);font-family: Arial, Helvetica, sans-serif;}
+        /* chữ */
+        .navbar a {float: left;font-size: 16px;color: rgb(255, 255, 255);text-align: center;padding: 14px 16px;text-decoration: none;}
+        /* nút mega */
+        .dropdown {float: left;overflow: hidden;}
+        /* button */
+        .dropdown .dropbtn {font-size: 16px;border: none;outline: none;color: rgb(255, 255, 255);padding: 14px 16px;background-color: inherit;font: inherit;margin: 0;}
+        /* link a */
+        .navbar a:hover, .dropdown:hover .dropbtn {text-decoration: underline;}
+        /* mega menu */
+        .dropdown-content {display: none;position: absolute;width: 100%;left: 0;box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);z-index: 1;}
+        /* biểu thị mega menu */  
+        .dropdown:hover .dropdown-content {display: block;}
+        /* xắp xếp tệp mega menu */
+        .column {float: left;width: 10%;padding: 10px;background-color: #ccc;height: 370px;}
+        /* chữ */
+        .column a {float: none;color: rgb(0, 0, 0);padding: 16px;text-decoration: none;display: block;text-align: left;}
+      /* tag 1 */
+        #tag-1 {background: rgba(0, 0, 0, 0);margin: 45px auto;position: relative;border: 1px solid rgba(0, 0, 0, 0);}
+        .tag-in-tag-1 {width: 1000px;margin: 0 auto;position: relative;border-radius: 20px 20px 20px 20px;}
+      /* tag 2 and 3*/
+        #tag-2-3 {background: rgb(0, 0, 0, 0.548);margin: 45px auto;position: relative;border: 1px solid rgb(0, 0, 0, 0.548);}
+        .tag-in-tag-2-3 {width: 1000px;margin: 0 auto;position: relative;border-radius: 20px 20px 20px 20px;}
+    /* img , khung ảnh */
+      .wp-caption {display:inline-block; line-height: 1px;max-width: 100%; margin: 6px 0 0 15px; ;padding: 2px;border-radius: 8px 8px 8px 8px;border: 3px solid rgb(24, 24, 24);text-align: center;background:rgb(24, 24, 24);box-shadow: none;border-radius: 8px 8px 8px 8px;}
+      .wp-caption .wp-caption-text {color: #ffffff;padding: 5px;line-height: 130%;}
+      .wp-caption img {width: 100%;border-radius: 8px 8px 8px 8px;}
+    /* copyright by tombui and vietnam123 */
+      .footer {background: #0000009d;color: #ffffff;height: 120px;display: block;}
+    </style>   
+  </head>
+  <body>
+    <!-- menu -->
+    <nav id="main-nav" class="fixed-enabled">
+      <div class="navbar">
+        <a href="index.html">Trang chủ</a>
+        <div class="dropdown">
+          <button class="dropbtn">nút<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <div class="column">
+              <h3>Category 1</h3>
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            <div class="column">
+              <h3>Category 2</h3>
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            <div class="column">
+              <h3>Category 3</h3>
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            <div class="column">
+              <h3>Category 4</h3>
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            <div class="column">
+              <h3>Category 5</h3>
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            <div class="column">
+              <h3>Category 6</h3>
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>
+        <a href="bài_viết.html">bài viết</a>
+        <a href="group_chat.html">hội chat</a>  
+        <a href="hội_viên_1.html">người dùng : ô mai</a>
+      </div>
+    </nav>
+    <!-- img -->
+<!-- tag-2 -->
+<div id="tag-2-3" class="tag-in-tag-2-3" style="padding: 10px"> 
+  <div>
+    <center><h2>Top 3 ảnh được download nhiều nhất trong tuần :</h2></center>
+    <figure style="width: 300px" class="wp-caption">
+      <a href="javascript:goToImage('img/img1.jpg')">
+        <img src="img/img1.jpg" alt="hỏng">
+      </a>  
+      <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+    </figure>
+    <figure style="width: 300px" class="wp-caption">
+      <a href="javascript:goToImage('img/img2.jpg')">
+        <img src="img/img2.jpg" alt="hỏng">
+      </a>  
+      <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+    </figure>                                        
+    <figure style="width: 300px" class="wp-caption">
+      <a href="javascript:goToImage('img/img6.jpg')">
+        <img src="img/img6.jpg" alt="hỏng">
+      </a>
+      <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+    </figure>     
+  </div>          
+</div>
+<!-- tag-3 -->
+<div id="tag-2-3" class="tag-in-tag-2-3" style="padding: 10px"> 
+  <div>
+    <!-- thẻ vocaloid -->
+    <center><h2>thẻ vocaloid :</h2></center>
+    <figure style="width: 300px" class="wp-caption">
+      <a href="javascript:goToImage('img/img7.jpg')">
+        <img src="img/img7.jpg" alt="hỏng">
+      </a>  
+      <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+    </figure>
+    <figure style="width: 300px" class="wp-caption">
+      <a href="javascript:goToImage('img/img4.jpg')">
+        <img src="img/img4.jpg" alt="hỏng">
+      </a>  
+      <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+    </figure>
+    <figure style="width: 300px" class="wp-caption">
+      <a href="javascript:goToImage('img/img3.jpg')">
+        <img src="img/img3.jpg">
+      </a>
+      <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+    </figure>
+    <!-- thẻ movie -->
+    <center><h2>thẻ movie :</h2></center>
+    <figure style="width: 300px" class="wp-caption">
+      <a href="javascript:goToImage('img/img26.jpg')">
+        <img src="img/img26.jpg" alt="hỏng">
+      </a>  
+      <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+    </figure>
+    <figure style="width: 300px" class="wp-caption">
+      <a href="javascript:goToImage('img/img25.jpg')">
+        <img src="img/img25.jpg" alt="hỏng">
+      </a>  
+      <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+    </figure>
+    <figure style="width: 300px" class="wp-caption">
+        <a href="javascript:goToImage('img/img65.jpg')">
+          <img src="img/img65.jpg" alt="hỏng">
+        </a>  
+        <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+      </figure>
+    <!-- thẻ phong cảnh , thành phố -->
+    <center><h2>thẻ phong cảnh , thành phố :</h2></center>
+    <figure style="width: 300px" class="wp-caption">
+      <a href="javascript:goToImage('img/img66.jpg')">
+        <img src="img/img66.jpg" alt="hỏng">
+      </a>  
+      <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+    </figure>
+    <figure style="width: 300px" class="wp-caption">
+      <a href="javascript:goToImage('img/img5.jpg')">
+        <img src="img/img5.jpg" alt="hỏng">
+      </a>  
+      <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+    </figure>
+    <figure style="width: 300px" class="wp-caption">
+      <a href="javascript:goToImage('img/img63.jpg')">
+        <img src="img/img63.jpg" alt="hỏng">
+      </a>  
+      <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+    </figure> 
+    <!-- thẻ vũ trụ -->
+    <center><h2>thẻ vũ trụ :</h2></center>
+    <figure style="width: 300px" class="wp-caption">
+      <a href="javascript:goToImage('img/img72.jpg')">
+        <img src="img/img72.jpg" alt="hỏng">
+      </a>  
+      <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+    </figure>
+    <figure style="width: 300px" class="wp-caption">
+      <a href="javascript:goToImage('img/img79.jpg')">
+        <img src="img/img79.jpg" alt="hỏng">
+      </a>  
+      <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+    </figure>
+    <figure style="width: 300px" class="wp-caption">
+        <a href="javascript:goToImage('img/img78.jpg')">
+        <img src="img/img78.jpg" alt="hỏng">
+      </a>  
+      <figcaption class="wp-caption-text">1920 x 1080</figcaption>
+    </figure>
+    <!-- các thẻ khác mà bạn có thể quan tâm -->
+  </div>          
+</div>
+    <!-- thank you bạn đã ghé thăm trang web này -->
+    <footer class="footer">
+      <center>
+        <p style="font-size: 25px">nếu có điều gì cần nêu ý kiến hay cần được hỗ trợ , bạn hãy liên lạc với chúng tôi ngay</p>
+        <p style="font-size: 25px">Copyright © 2018 as noval / tombui / vietnamcolen2020 </p>
+        <p style="font-size: 25px">gmail : vietnamcolen2020@gmail.com</p>
+        <p style="font-size: 25px">số điện thoại liên lạc : 098 353 8869</p>
+      </center>
+    </footer>
+    <script>
+      function goToImage(link) {
+        localStorage.imageDetail = link;
+        window.location.href = window.location.href.replace('index.html','/image_detail.html');}
+    </script>
+  </body>
+</html>

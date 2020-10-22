@@ -8,38 +8,34 @@
 </head>
 <body>
     <table border="1">
-        <tr >
-            <th colspan="3"><input type="text"></th>
-            <th><button>Esc</button></th>
-        </tr>
-
         <tr>
-            <th><button>1</button></th>
-            <th><button>2</button></th>
-            <th><button>3</button></th>
-            <th></th>
-            
+            <td colspan="3"><input id="result" type="text"></td>
+            <td><button onclick="Clear()">Esc</button></td>
+           
         </tr>
         <tr>
-            <th><button>4</button></th>
-            <th><button>5</button></th>
-            <th><button>6</button></th>
-            <th></th>
-            
+            <td><button onclick="display(1)">1</button></td>
+            <td><button onclick="display(2)">2</button></td>
+            <td><button onclick="display(3)">3</button></td>
+            <td><button onclick="setOperator('+')">+</button></td>
         </tr>
         <tr>
-            <th><button>7</button></th>
-            <th><button>8</button></th>
-            <th><button>9</button></th>
-            <th></th>
-            
+            <td><button onclick="display(4)">4</button></td>
+            <td><button onclick="display(5)">5</button></td>
+            <td><button onclick="display(6)">6</button></td>
+            <td><button onclick="setOperator('-')">-</button></td>
         </tr>
         <tr>
-            <th><button>.</button></th>
-            <th><button>0</button></th>
-            <th><button>=</button></th>
-            <th></th>
-            
+            <td><button onclick="display(7)">7</button></td>
+            <td><button onclick="display(8)">8</button></td>
+            <td><button onclick="display(9)">9</button></td>
+            <td><button onclick="setOperator('*')">*</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="display('.')">.</button></td>
+            <td><button onclick="display(0)">0</button></td>
+            <td><button onclick="tinhToan()">=</button></td>
+            <td><button onclick="setOperator('/')">/</button></td>
         </tr>
     </table>
     <script src="./app.js"></script>
